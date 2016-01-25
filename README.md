@@ -2,10 +2,10 @@
 [![wercker status](https://app.wercker.com/status/609d79a6bea8ae1ebb8ac4418fca9202/s "wercker status")](https://app.wercker.com/project/bykey/609d79a6bea8ae1ebb8ac4418fca9202)
 
 A step to check an R package.  Best used with one of the
-[rocker](https://registry.hub.docker.com/repos/rocker/) images.
+[inbobmk](https://hub.docker.com/u/inbobmk/) images. This is a stable fork of [r-check by Jim Hester](https://github.com/jimhester/wercker-step-r-check)
 
 ```yaml
-    - jimhester/r-check
+    - inbobmk/r-check
 ```
 
 ## Options
@@ -17,13 +17,13 @@ A step to check an R package.  Best used with one of the
 
 Basic usage:
 ```
-    - jimhester/r-check
+    - inbobmk/r-check
 ```
 
 If you want warnings to fail the build.
 
 ```
-    - jimhester/r-check:
+    - inbobmk/r-check:
       warnings_are_errors: TRUE
 ```
 
@@ -51,6 +51,9 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.5.1
+- Make a fork for inbobmk
 
 ## 0.0.5
 - Use info rather than echo for filenames when dumping files
