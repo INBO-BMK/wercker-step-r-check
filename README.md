@@ -1,5 +1,5 @@
 # r-check
-[![wercker status](https://app.wercker.com/status/609d79a6bea8ae1ebb8ac4418fca9202/s "wercker status")](https://app.wercker.com/project/bykey/609d79a6bea8ae1ebb8ac4418fca9202)
+[![wercker status](https://app.wercker.com/status/3ce4f5f67a9a31b8a8363d91639d1c65/m "wercker status")](https://app.wercker.com/project/bykey/3ce4f5f67a9a31b8a8363d91639d1c65)
 
 A step to check an R package.  Best used with one of the
 [inbobmk](https://hub.docker.com/u/inbobmk/) images. This is a stable fork of [r-check by Jim Hester](https://github.com/jimhester/wercker-step-r-check)
