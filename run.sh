@@ -1,7 +1,7 @@
 #!/bin/bash
 
 check () {
-  Rscript -e 'devtools::check(document = FALSE, check_dir = ".", cleanup = FALSE, force_suggests = TRUE)'
+  Rscript -e 'devtools::check(document = FALSE, check_dir = ".", cleanup = FALSE, force_suggests = TRUE, run_dont_test = FALSE)'
   check_result=$?
   warnings=0
   if [ "$WERCKER_R_CHECK_WARNINGS_ARE_ERRORS" == "true" ]; then
