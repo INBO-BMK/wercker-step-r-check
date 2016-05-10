@@ -52,6 +52,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.7
+
+- remove run_dont_test argument as it isn't supported in all versions of devtools
+
+## 0.0.6
+
+- add run_dont_test argument
+
 ## 0.0.5.1
 - Make a fork for inbobmk
 
