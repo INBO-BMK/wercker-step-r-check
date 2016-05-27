@@ -52,6 +52,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.8
+
+- bugfix: errors trigger failure
+- no longer use the deprecated cleanup = FALSE
+
 ## 0.0.7
 
 - remove run_dont_test argument as it isn't supported in all versions of devtools
