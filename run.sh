@@ -2,8 +2,6 @@
 
 check () {
   Rscript -e 'devtools::check(document = FALSE, check_dir = ".", force_suggests = TRUE)'
-  check_result=$?
-  warnings=0
   if grep "Status: .* ERROR" ./*.Rcheck/00check.log; then
     warn "Check Failed, dumping logs"
     find ./*.Rcheck -type f \( -name "*out" -o -name "*log" -o -name "*fail" \) \
