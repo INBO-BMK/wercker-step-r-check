@@ -55,6 +55,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.9
+
+- don't show file info of output files in case of fail so the the content of the files is displayed
+
 ## 0.0.8
 
 - bugfix: errors trigger failure
