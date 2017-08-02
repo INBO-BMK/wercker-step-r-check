@@ -1,0 +1,16 @@
+{
+    "description": "R check step for wercker", 
+    "license": "MIT", 
+    "title": "wercker-step-r-check", 
+    "upload_type": "software", 
+    "creators": [
+        {
+            "name": "Jim Hester"
+        }, 
+        {
+            "affiliation": "Research Institute for Nature and Forest", 
+            "name": "Thierry Onkelinx"
+        }
+    ], 
+    "access_right": "open"
+}
