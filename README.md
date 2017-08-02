@@ -1,5 +1,8 @@
 # r-check
-[![wercker status](https://app.wercker.com/status/3ce4f5f67a9a31b8a8363d91639d1c65/m "wercker status")](https://app.wercker.com/project/bykey/3ce4f5f67a9a31b8a8363d91639d1c65)
+[![wercker status](https://app.wercker.com/status/e7a0cc99dac1d2734be2c900863f56bb/s/master "wercker status")](https://app.wercker.com/project/bykey/e7a0cc99dac1d2734be2c900863f56bb)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/inbo/wercker-step-r-check/master/README.md)
+
 
 A step to check an R package.  Best used with one of the
 [inbobmk](https://hub.docker.com/u/inbobmk/) images. This is a stable fork of [r-check by Jim Hester](https://github.com/jimhester/wercker-step-r-check)
@@ -51,6 +54,10 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.9
+
+- don't show file info of output files in case of fail so the the content of the files is displayed
 
 ## 0.0.8
 

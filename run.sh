@@ -5,7 +5,6 @@ check () {
   if grep "Status: .* ERROR" ./*.Rcheck/00check.log; then
     warn "Check Failed, dumping logs"
     find ./*.Rcheck -type f \( -name "*out" -o -name "*log" -o -name "*fail" \) \
-      -exec info "File: {}" \; \
       -exec cat {} \;
     fail "Check Failed"
   else
@@ -13,7 +12,6 @@ check () {
       if grep "Status: .* WARNINGS" ./*.Rcheck/00check.log; then
         warn "Check Failed, dumping logs"
         find ./*.Rcheck -type f \( -name "*out" -o -name "*log" -o -name "*fail" \) \
-          -exec info "File: {}" \; \
           -exec cat {} \;
         fail "Check Failed"
       else
